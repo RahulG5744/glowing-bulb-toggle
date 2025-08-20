@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.bulb {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: gray;
+  margin: 20px auto;
+  transition: 0.3s;
+}
+
+.bulb.on {
+  background: yellow;
+  box-shadow: 0 0 30px yellow;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
